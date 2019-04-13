@@ -1,0 +1,99 @@
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #branding > h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      to left bottom,
+      #cb0074,
+      #bd208b,
+      #a8359f,
+      #8e45af,
+      #6d52bb,
+      #515fc0,
+      #3269c1,
+      #0071be,
+      #007ab4,
+      #007f9e,
+      #008184,
+      #18816a
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+    clear: both;
+    margin: 0 auto;
+  }
+  
+  #userInfo {
+    margin: 1em 0 0 2em;
+    padding: 0.5em;
+  }
+  
+  body {
+    background: wheat;
+    padding: 0.4em;
+  }
+  
+  .social-login {
+    float: right;
+    text-align: left;
+  }
+  
+  .error {
+    color: white;
+    font-weight: bold;
+    background-color: crimson;
+    padding: 1em;
+  }
+  
+  .success {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    padding: 1em;
+  }
+  
+  .default {
+    color: white;
+    font-weight: bold;
+    background-color: lightgray;
+    padding: 1em;
+  }
+  
+  #signin-helper-text {
+      margin: 1em  0 0 0;
+  }
+  
+  #country-weather-info,
+  .divider {
+    margin: 2em 0 0 0.2em;
+  }
+  
+  .divider {
+    width: 60%;
+    border: #0071be solid 0.4px;
+  }
+  
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #footer {
+      padding: 0.3em 0 1em 0.3em;
+  }
+  
+  #footer > #roadmap, #footer > #updates {
+      width: 50%;
+      display: inline-block;
+  }
+  
+  #footer > #updates {
+      float: right;
+  }
+  
